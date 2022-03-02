@@ -1,0 +1,138 @@
+.container{
+    background-image: url('./img/whosThatPokemon.png');
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 36, 36);
+    border-bottom: 5px solid black;
+    
+}
+.logoPokemon{
+    margin: 5px;
+    margin-left: 8px;
+    transition: 0.5s;
+}
+.logoPokemon:hover{
+    transform: scale(1.08);
+}
+
+.crearPokemon{
+    
+    margin-top: 15px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.crearPokemon:hover{
+    transform: scale(1.08);
+}
+.bolita{
+    position: absolute;
+    padding: 13px;
+    
+    margin-top: 80px;
+    margin-left: 944px;
+    background-color: white ;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+.pokeball{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 1625px;
+}
+.pokemon{
+    margin-left: 300px;
+    margin-top: 250px;
+    border-radius: 15px;
+}
+.info{
+    box-shadow: rgba(0, 0, 0, 0.35) -20px 12px 2px;
+    height: 685px;
+    width: 300px;
+    margin-top: 70px;
+    margin-right: 50px;
+    
+    border: 2px solid rgb(202, 202, 202) ;
+    background-color: rgb(112, 222, 226);
+    border-radius: 30px;
+
+}
+.namePokemon{
+    /* background-image: url('./img/fondoNombrePokemons.jpg'); */
+    background-color: #fff ;
+    font-family: consolas;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+.pokedex{
+    font-family: consolas;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(151, 151, 151) ;
+}
+.containerPokedex{
+    margin-top: 5px;
+}
+.tipos1{
+    font-family: consolas;
+    font-size: 35px;
+    
+}
+.tipos{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 60px ;
+    background-color: rgb(255, 255, 255);
+}
+.tipos img{
+    
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+}
+.stats1{
+    font-family: consolas;
+    font-size: 35px;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(226, 226, 226);
+    text-align: left;
+    padding-left: 110px;
+    font-family: consolas;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 60px ;
+    background-color: rgb(250, 250, 250);;
+    
+}
+.stats img{
+    
+    padding-top: 5px;
+}
+.stats div{
+   padding-top: 6px;
+   padding-left: 10px;
+}
+.buttonContainer img{
+    padding-top: 6px;
+    transition: 0.5s;
+}
+.buttonContainer img:hover{
+    transform: scale(1.1);
+}
+::-webkit-scrollbar {display: none;}

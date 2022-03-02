@@ -1,0 +1,70 @@
+.div{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 300px;
+    min-width: 300px;
+    
+    min-height: 350px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    background-image: url('./img/fondoNombrePokemons.jpg');
+    padding: 0px;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;    
+    border-radius: 5.2%;
+    transition: .4s;
+}
+.div:hover {
+    
+    cursor: hand;
+    cursor: pointer;
+    transform: scale(1.02); 
+    box-shadow: 0px 10px 10px -6px black;
+  }
+
+.name{
+    font-family: consolas;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px;
+    color: #333
+}
+
+
+.imgBack{
+    background-image: url('./img/fondoPokemons.jpg');
+    border-radius: 5% 5% 0 0;
+    margin-top: -7px;
+    border-bottom: 2px solid black;
+    
+
+}
+.imgBack img{
+    border-radius: 15px;
+}
+
+
+.nombrePokemon{
+    font-family: impact,20px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.tipos img{
+    
+    height: 30px;
+    width: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logoPokemon{
+    width: 120px;
+    height: 120px;;
+}

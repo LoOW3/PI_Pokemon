@@ -1,0 +1,34 @@
+.container{
+    padding-left: 25px;
+    height: 19px;
+    margin-bottom: 0px;
+}
+.paginado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+.pag{
+    padding: 7px 13px;
+    margin: 5px;
+    list-style:none;
+    cursor: hand;
+    cursor: pointer;
+    border: 2px solid rgb(240, 240, 240);
+    background-color: white;
+    opacity: 0.98;
+    border-radius: 50px;
+    font-family: consolas;
+    font-size: 17px;
+    
+    transition: 0.5s;
+}
+.pag:hover{
+    background-color: rgb(228, 42, 42);
+    border: 1px solid black;
+    color: white;
+    
+}
+

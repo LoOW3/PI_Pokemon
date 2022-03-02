@@ -1,0 +1,147 @@
+.cardContenedor{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+
+}
+.link{
+    text-decoration: none;
+}
+
+.cardContainer{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.paginado{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.divNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 36, 36);
+    border-bottom: 5px solid black;
+    
+}
+.logoPokemon{
+    margin: 5px;
+    margin-left: 8px;
+    transition: 0.5s;
+}
+.logoPokemon:hover{
+    transform: scale(1.08);
+}
+
+.crearPokemon{
+    
+    margin-top: 15px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.crearPokemon:hover{
+    transform: scale(1.08);
+}
+.bolita{
+    position: absolute;
+    padding: 13px;
+    
+    margin-top: 80px;
+    margin-left: 944px;
+    background-color: white ;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+.pokeball{
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 1625px;
+}
+.searchBar{
+    display: inline;
+    position: absolute;
+    
+}
+.containerLoading{
+    background-color: rgb(235, 235, 235);
+    height: 100vw;
+    
+}
+.loading{
+    margin-top: 200px;
+    
+}
+.loadingGif{
+    border : 2px solid rgb(219, 219, 219);
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* border: 1px solid red */
+}
+.filtros{
+    position: relative;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 42px;
+    padding-bottom: 3px ;
+    margin-top: -60px;
+    margin-left: 1082px;
+    font-family: consolas;
+    
+    background-color: rgb(182, 0, 0);
+    border-radius: 20px;
+}
+.attackContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.alphContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fromContainer{
+    color: white;
+    display: flex;
+    flex-direction: column; 
+}
+.typeContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;     
+}
+.select{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 50px;
+    font-family: consolas;
+    font-size: 12px;   
+    cursor: hand;
+    cursor: pointer; 
+}
+.notFoundText{
+    position: absolute;
+    font-family: consolas;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 880px;
+}
+.volverButtonLoading{
+    margin-top: 20px;
+}
+option{
+    font-family: consolas;
+    font-size: 12px;
+}

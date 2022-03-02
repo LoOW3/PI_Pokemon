@@ -1,0 +1,36 @@
+.container {
+    background-image: url('./img/landing.jpg');
+    height: 100vh;
+    
+    
+}
+.catchem{
+    width: 300px;
+    transition: transform .4s;
+    cursor: hand;
+    cursor: pointer;
+}
+.catchem:hover{
+    transform: scale(1.1); 
+
+}
+
+.pokeball img{
+    width: 120px;
+    cursor: hand;
+    cursor: pointer;
+    transition: 1.4s;
+    /* -moz-transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s; */
+}
+.pokeball :hover{
+    transform:rotate(1080deg);
+    -ms-transform:rotate(1080deg);
+    -moz-transform:rotate(1080deg);
+    -webkit-transform:rotate(1080deg);
+    -o-transform:rotate(1080deg);
+}
+
+
+
