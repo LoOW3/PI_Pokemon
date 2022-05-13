@@ -84,10 +84,12 @@ export  default function PokemonCreate(){
         }))
     }
     function handleSelect(e){
-        setInput({
-            ...input,
-            type: [...input.type,e.target.value]
-        })
+        if(!input.type.includes(e.target.value)){
+            setInput({
+                ...input,
+                type: [...input.type,e.target.value]
+            })
+        }
         console.log(input)
     }
     function handleDelete(e){
@@ -95,6 +97,8 @@ export  default function PokemonCreate(){
             ...input,
             type: input.type.filter(t => t !== e.target.value)
         })
+        return input;
+        console.log(input)
     }
     const handleSubmit = async (e)=>{
         e.preventDefault();

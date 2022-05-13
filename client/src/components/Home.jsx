@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPokemons, getTypes, filterByType, filterCreated, orderByName, orderByAttack} from "../actions";
