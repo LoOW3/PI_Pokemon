@@ -8,7 +8,9 @@ import { store } from './store';
 import dotenv from 'dotenv';
 import axios from 'axios';
 
-axios.defaults.baseURL = process.env.REACT_ARR_API || 'http://localhost:3001'
+dotenv.config();
+
+axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001'
 
 ReactDOM.render(
   <Provider store={store}>
